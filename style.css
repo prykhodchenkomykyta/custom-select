@@ -1,0 +1,19 @@
+.wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 40px;
+	height: 600px;
+	width: 100%;
+	flex-direction: column;
+}
+
+::selection {
+	background: aquamarine;
+	color: black;
+}
+
+.colorful::selection {
+	background: deeppink;
+	color: white;
+}
